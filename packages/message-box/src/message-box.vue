@@ -30,7 +30,7 @@
       transform: translate3d(-50%, -50%, 0);
       background-color: #fff;
       width: 85%;
-      border-radius: 3px;
+      border-radius: 6px;
       font-size: 16px;
       -webkit-user-select: none;
       overflow: hidden;
@@ -42,7 +42,7 @@
       }
 
       @descendent content {
-        padding: 10px 20px 15px;
+        padding: 15px 20px;
         border-bottom: 1px solid #ddd;
         min-height: 36px;
         position: relative;
@@ -94,17 +94,18 @@
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
-        height: 40px;
-        line-height: 40px;
+        height: 1.3rem;
+        line-height: 1.3rem;
       }
 
       @descendent btn {
-        line-height: 35px;
+        line-height: .48rem;
         display: block;
         background-color: #fff;
         flex: 1;
         margin: 0;
         border: 0;
+        letter-spacing: 1px;
 
         &:focus {
           outline: none;
